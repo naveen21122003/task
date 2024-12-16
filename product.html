@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Product List</title>
+    <link rel="stylesheet" href="css/product.css">
+</head>
+<body>
+    <div class="filter-section">
+        <h2>Filter Products</h2>
+        <select id="categoryFilter">
+            <option value="">All Categories</option>
+            <option value="Laptops">Laptops</option>
+            <option value="Mobiles">Mobiles</option>
+            <option value="Headsets">Headsets</option>
+        </select>
+        <select id="priceFilter">
+            <option value="">All Prices</option>
+        </select>
+        <button id="filterBtn">Filter</button>
+    </div>
+
+    <div class="product-grid" id="productGrid"></div>
+
+    <script src="js/product.js"></script>
+</body>
+</html>
