@@ -33,7 +33,7 @@ select {
 
 button {
     padding: 10px 20px;
-    background-color: #28a745;
+    background-color: #000000;
     color: white;
     border: none;
     border-radius: 5px;
@@ -41,7 +41,8 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #65edff;
+    color: rgb(0, 0, 0);
 }
 
 .filter-section {
